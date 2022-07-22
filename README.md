@@ -1,5 +1,5 @@
 # primo-browse-homepage
-Javascript code to add a 'homepage' to the Primo VE Browse Search screen before searching.
+Javascript code to add a 'homepage' to the Primo VE Browse Search screen.
 
 When we implemented the Browse Search, we were interested in having some sort of message for users that would mention the gaps in those results. There is no built-in ability to create such a message, but Ex Libris Support provided an instance of an institution adding one via custom JavaScript plus the creation of an html page for display (mimicking what happens for the 'homepage'). The example: https://i-share-uiu.primo.exlibrisgroup.com/discovery/search?vid=01CARLI_UIU:CARLI_UIU&lang=en
 
