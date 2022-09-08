@@ -1,0 +1,21 @@
+/* add responsiveness to cards on browse page */
+
+.gu-browse-cards {
+    max-width: 90%;
+}
+
+@media (min-width: 960px) {
+    .gu-browse-cards  {
+        max-width: 58%;
+    }
+}
+
+.gu-browse-cards .flex-50 {
+    max-width: 90%;
+}
+
+@media (min-width: 600px) {
+    .gu-browse-cards .flex-50  {
+        max-width: 50%;
+    }
+}
