@@ -1,7 +1,9 @@
 # primo-browse-homepage
 Javascript code to add a 'homepage' to the Primo VE Browse Search screen.
 
-When we implemented the Browse Search, we were interested in having some sort of message for users that would provide general information about how it works and mention the known gaps in those results. There is no built-in ability to create such a message, but Ex Libris Support provided an instance of an institution adding one via custom JavaScript plus the creation of an html page for display (mimicking what happens for the 'homepage'). The example: https://i-share-uiu.primo.exlibrisgroup.com/discovery/search?vid=01CARLI_UIU:CARLI_UIU&lang=en
+When we implemented the Browse Search, we were interested in having some sort of message for users that would provide general information about how it works and mention the known gap in those results (as part of a consortium using a Network Zone, not all available e-resources are represented in our browse results due to <a href="https://ideas.exlibrisgroup.com/forums/308173-alma/suggestions/44939524-include-available-nz-e-inventory-within-iz-alma-pr">known shortcomings</a>).
+
+There is no built-in ability to create such a message, but Ex Libris Support provided an instance of an institution adding one via custom JavaScript plus the creation of an html page for display (mimicking what happens for the 'homepage'). The example: https://i-share-uiu.primo.exlibrisgroup.com/discovery/search?vid=01CARLI_UIU:CARLI_UIU&lang=en
 
 I extracted the relevant code from their custom.js file, tweaked it, and am sharing it here for communal benefit. In my initial attempt, the 'boxes' ended up as wide as the browser screen. To make their width and behavior mimic the boxes on the Primo homepage, my colleague Steve Fernie developed some CSS and modified the html.
 
