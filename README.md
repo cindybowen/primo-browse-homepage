@@ -10,3 +10,5 @@ I extracted the relevant code from their custom.js file, tweaked it, and am shar
 You will need to modify the custom.js file and custom CSS file for the Primo view and create a 'browse' folder within the 'html' folder for the Primo view, then place a browse_en.html file in that folder, i.e. Your Primo view > html > browse > browse_en.html, imitating the model of the Primo homepage.
 
 ![image](https://user-images.githubusercontent.com/75031778/180499512-ff4d1e6a-72ec-41c9-a966-ddb3572fa60e.png)
+
+Our live page: https://wrlc-gu.primo.exlibrisgroup.com/discovery/browse?vid=01WRLC_GUNIV:01WRLC_GUNIV&lang=en
